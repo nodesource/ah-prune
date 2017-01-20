@@ -1,0 +1,33 @@
+{
+  "name": "ah-prune",
+  "version": "0.0.0",
+  "description": "Prune specific types of async hook resources from a collected map.",
+  "main": "ah-prune.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/thlorenz/ah-prune.git"
+  },
+  "homepage": "https://github.com/thlorenz/ah-prune",
+  "dependencies": {
+    "ah-deep-clone": "~1.0.0"
+  },
+  "devDependencies": {
+    "tape": "~4.6.3"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Thorsten Lorenz",
+    "email": "thlorenz@gmx.de",
+    "url": "http://thlorenz.com"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/thlorenz/ah-prune/blob/master/LICENSE"
+  },
+  "engine": {
+    "node": ">=6"
+  }
+}
