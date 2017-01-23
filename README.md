@@ -29,7 +29,7 @@ preserved.
 Only either `prune` or `keep` maybe supplied at once.
 
 The `activities` passed are not modified, instead a clone is made before
-the pruning step.
+the pruning step, unless `copy` is set to `false`
 
 #### arguments
 
@@ -37,6 +37,8 @@ the pruning step.
 - `@param {Map.<Object>} opts.activities` the activities to be pruned
 - `@param {Set.<String>} opts.prune` if supplied all activities of types supplied in the Set are removed
 - `@param {Set.<String>} opts.keep` if supplied all activities of types NOT supplied in the Set are removed
+- `@param {Boolean} opts.copy` if set, the activities are cloned before modification, otherwise they are modified in
+  place, default: `true`
 - `@return {Map.<Object>}` the pruned activities
 
 ## License
