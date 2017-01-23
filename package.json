@@ -1,6 +1,6 @@
 {
   "name": "ah-prune",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Prune specific types of async hook resources from a collected map.",
   "main": "ah-prune.js",
   "scripts": {
