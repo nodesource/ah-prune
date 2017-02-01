@@ -8,9 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/ah-prune.git"
+    "url": "git://github.com/nodesource/ah-prune.git"
   },
-  "homepage": "https://github.com/thlorenz/ah-prune",
+  "homepage": "https://github.com/nodesource/ah-prune",
   "dependencies": {
     "ah-deep-clone": "~1.0.0"
   },
@@ -25,7 +25,7 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/thlorenz/ah-prune/blob/master/LICENSE"
+    "url": "https://github.com/nodesource/ah-prune/blob/master/LICENSE"
   },
   "engine": {
     "node": ">=6"

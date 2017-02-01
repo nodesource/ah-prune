@@ -1,4 +1,4 @@
-# ah-prune [![build status](https://secure.travis-ci.org/thlorenz/ah-prune.png)](http://travis-ci.org/thlorenz/ah-prune)
+# ah-prune [![build status](https://secure.travis-ci.org/nodesource/ah-prune.png)](http://travis-ci.org/nodesource/ah-prune)
 
 Prune specific types of async hook resources from a collected map.
 
