@@ -108,3 +108,14 @@ test('\nkeeping TCPWRAP', function(t) {
   )
   t.end()
 })
+
+test('\npruning via pruneFn that only allows tcp1', function(t) {
+  const onlytcp1 = prune({
+      activities
+    , keepFn(type, activity) { return activity.id === 'tcp:1' }
+  })
+  t.deepEqual(Array.from(onlytcp1),
+    [ [ 'tcp:1', { type: 'TCPWRAP', id: 'tcp:1', triggerId: null } ] ]
+    , 'keeps only tcp1')
+  t.end()
+})
